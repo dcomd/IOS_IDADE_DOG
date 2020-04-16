@@ -9,12 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var legendaResultado: UILabel!
-    @IBOutlet weak var campoIdadeCachoro: UITextField!
     
-    @IBAction func descobrirIdade(_ sender: Any) {
-        let idade = Int(campoIdadeCachoro.text!)! * 7
+    @IBOutlet weak var textIdadeCachorro: UITextField!
+    @IBOutlet weak var legendaResultado: UILabel!
+
+    @IBAction func btnResultado(_ sender: Any) {
+        let idade = Int(textIdadeCachorro.text!)! * 7
         let str = "A idade do cachorro é:" + String(idade)
         legendaResultado.text = str
     }
