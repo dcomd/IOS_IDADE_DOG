@@ -1,5 +1,5 @@
 //
-//  RandViewController.swift
+//  TesteController.swift
 //  PrimeiroApp
 //
 //  Created by Alexandre de Oliveira Nepomuceno on 16/04/20.
@@ -8,14 +8,8 @@
 
 import UIKit
 
-class RandViewController: UIViewController {
-    @IBOutlet weak var legendaResultado: UILabel!
-    @IBAction func btnResult(_ sender: Any) {
-        let number = arc4random_uniform(11)
-        legendaResultado.text = String(number)
-    }
-    
-    
+class TesteController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 

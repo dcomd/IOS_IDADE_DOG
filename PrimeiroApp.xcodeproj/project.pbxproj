@@ -12,11 +12,10 @@
 		873200722446F8D300633274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873200702446F8D300633274 /* Main.storyboard */; };
 		873200742446F8D400633274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 873200732446F8D400633274 /* Assets.xcassets */; };
 		873200772446F8D400633274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873200752446F8D400633274 /* LaunchScreen.storyboard */; };
-		8732007F244700F400633274 /* cachorro.png in Resources */ = {isa = PBXBuildFile; fileRef = 8732007E244700F400633274 /* cachorro.png */; };
-		873200D12448038300633274 /* botaogerar-pressionado.png in Resources */ = {isa = PBXBuildFile; fileRef = 873200CE2448038200633274 /* botaogerar-pressionado.png */; };
-		873200D22448038300633274 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 873200CF2448038200633274 /* logo.png */; };
-		873200D32448038300633274 /* botaogerar.png in Resources */ = {isa = PBXBuildFile; fileRef = 873200D02448038200633274 /* botaogerar.png */; };
-		873200D724480BB900633274 /* RandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873200D624480BB900633274 /* RandViewController.swift */; };
+		873200EC24484BF900633274 /* RandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873200EA24484BF900633274 /* RandViewController.swift */; };
+		873200ED24484BF900633274 /* RandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873200EB24484BF900633274 /* RandViewController.xib */; };
+		873200F824486C3600633274 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873200F624486C3600633274 /* DogViewController.swift */; };
+		873200F924486C3600633274 /* DogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873200F724486C3600633274 /* DogViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +26,10 @@
 		873200732446F8D400633274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		873200762446F8D400633274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873200782446F8D400633274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8732007E244700F400633274 /* cachorro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cachorro.png; sourceTree = "<group>"; };
-		873200CE2448038200633274 /* botaogerar-pressionado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "botaogerar-pressionado.png"; sourceTree = "<group>"; };
-		873200CF2448038200633274 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		873200D02448038200633274 /* botaogerar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = botaogerar.png; sourceTree = "<group>"; };
-		873200D624480BB900633274 /* RandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandViewController.swift; sourceTree = "<group>"; };
+		873200EA24484BF900633274 /* RandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandViewController.swift; sourceTree = "<group>"; };
+		873200EB24484BF900633274 /* RandViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RandViewController.xib; sourceTree = "<group>"; };
+		873200F624486C3600633274 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
+		873200F724486C3600633274 /* DogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +62,34 @@
 		8732006B2446F8D300633274 /* PrimeiroApp */ = {
 			isa = PBXGroup;
 			children = (
+				873200F5244869BD00633274 /* Rand */,
+				873200F0244868EB00633274 /* Dog */,
 				8732006C2446F8D300633274 /* AppDelegate.swift */,
-				873200CE2448038200633274 /* botaogerar-pressionado.png */,
-				873200D02448038200633274 /* botaogerar.png */,
-				873200CF2448038200633274 /* logo.png */,
 				8732006E2446F8D300633274 /* ViewController.swift */,
 				873200702446F8D300633274 /* Main.storyboard */,
-				8732007E244700F400633274 /* cachorro.png */,
 				873200732446F8D400633274 /* Assets.xcassets */,
 				873200752446F8D400633274 /* LaunchScreen.storyboard */,
 				873200782446F8D400633274 /* Info.plist */,
-				873200D624480BB900633274 /* RandViewController.swift */,
 			);
 			path = PrimeiroApp;
+			sourceTree = "<group>";
+		};
+		873200F0244868EB00633274 /* Dog */ = {
+			isa = PBXGroup;
+			children = (
+				873200F624486C3600633274 /* DogViewController.swift */,
+				873200F724486C3600633274 /* DogViewController.xib */,
+			);
+			name = Dog;
+			sourceTree = "<group>";
+		};
+		873200F5244869BD00633274 /* Rand */ = {
+			isa = PBXGroup;
+			children = (
+				873200EA24484BF900633274 /* RandViewController.swift */,
+				873200EB24484BF900633274 /* RandViewController.xib */,
+			);
+			name = Rand;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,13 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8732007F244700F400633274 /* cachorro.png in Resources */,
+				873200F924486C3600633274 /* DogViewController.xib in Resources */,
 				873200772446F8D400633274 /* LaunchScreen.storyboard in Resources */,
-				873200D22448038300633274 /* logo.png in Resources */,
 				873200742446F8D400633274 /* Assets.xcassets in Resources */,
 				873200722446F8D300633274 /* Main.storyboard in Resources */,
-				873200D32448038300633274 /* botaogerar.png in Resources */,
-				873200D12448038300633274 /* botaogerar-pressionado.png in Resources */,
+				873200ED24484BF900633274 /* RandViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +167,8 @@
 			files = (
 				8732006F2446F8D300633274 /* ViewController.swift in Sources */,
 				8732006D2446F8D300633274 /* AppDelegate.swift in Sources */,
-				873200D724480BB900633274 /* RandViewController.swift in Sources */,
+				873200EC24484BF900633274 /* RandViewController.swift in Sources */,
+				873200F824486C3600633274 /* DogViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
