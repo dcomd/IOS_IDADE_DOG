@@ -19,9 +19,9 @@ class ViewController: UIViewController {
         let viewController = DogViewController(nibName: "DogViewController", bundle: nil)
         self.present(viewController, animated: true, completion: nil)
     }
-    
-    @IBAction func sendFrase(_ sender: Any) {
-        
+    @IBAction func sendFrases(_ sender: Any) {
+        let viewController = FrasesViewController(nibName: "FrasesViewController", bundle: nil)
+        self.present(viewController, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

@@ -22,7 +22,9 @@
                                 <rect key="frame" x="20" y="98" width="338" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.39674606709999999" green="0.75829890659999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Dog Project"/>
+                                <state key="normal" title="Dog Project">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="sendDog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Suh-LB-onH"/>
                                 </connections>
@@ -31,19 +33,23 @@
                                 <rect key="frame" x="20" y="173" width="338" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.98039215690000003" green="0.3294117647" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Rand Project"/>
+                                <state key="normal" title="Rand Project">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="sendRand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OI3-kM-wSW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Tb-n9-Z9u">
-                                <rect key="frame" x="20" y="243" width="338" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZP-PY-34z">
+                                <rect key="frame" x="20" y="255" width="338" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.98039215690000003" green="0.3294117647" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Frase Project"/>
+                                <color key="backgroundColor" red="0.3756723106" green="0.52067685129999997" blue="0.1803008616" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Frases Project">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="CallTeste:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fM8-On-6IP"/>
-                                    <action selector="sendFrase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="asu-MR-zPh"/>
+                                    <action selector="sendFrases:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ipv-I6-qGh"/>
+                                    <action selector="sendRand:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wYD-Rx-3bt"/>
                                 </connections>
                             </button>
                         </subviews>

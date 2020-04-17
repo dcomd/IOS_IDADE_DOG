@@ -10,6 +10,7 @@ import UIKit
 
 class RandViewController: UIViewController {
     @IBOutlet weak var legendaResultado: UILabel!
+    
     @IBAction func btnResult(_ sender: Any) {
         let number = arc4random_uniform(11)
         legendaResultado.text = String(number)
