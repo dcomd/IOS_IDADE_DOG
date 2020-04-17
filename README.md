@@ -27,3 +27,11 @@ Primeiro Aplicativo do curso IOS
 - Operadores Logicos.
 - Estrutura Condicionais IF e Else , Switch Cases.
 
+#QuartoApp
+- Calcular se gasolina compensa mais que Alcool.
+- For e While
+- Funções 
+- Opcionais
+- Classes e objetos
+- Herança
+
