@@ -18,6 +18,9 @@
 		873200F924486C3600633274 /* DogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873200F724486C3600633274 /* DogViewController.xib */; };
 		873200FD244946F100633274 /* FrasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873200FB244946F100633274 /* FrasesViewController.swift */; };
 		873200FE244946F100633274 /* FrasesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873200FC244946F100633274 /* FrasesViewController.xib */; };
+		87320102244966ED00633274 /* GasolinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87320100244966ED00633274 /* GasolinaViewController.swift */; };
+		87320103244966ED00633274 /* GasolinaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87320101244966ED00633274 /* GasolinaViewController.xib */; };
+		873201052449674F00633274 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 873201042449674F00633274 /* logo2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		873200F724486C3600633274 /* DogViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogViewController.xib; sourceTree = "<group>"; };
 		873200FB244946F100633274 /* FrasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrasesViewController.swift; sourceTree = "<group>"; };
 		873200FC244946F100633274 /* FrasesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FrasesViewController.xib; sourceTree = "<group>"; };
+		87320100244966ED00633274 /* GasolinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasolinaViewController.swift; sourceTree = "<group>"; };
+		87320101244966ED00633274 /* GasolinaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GasolinaViewController.xib; sourceTree = "<group>"; };
+		873201042449674F00633274 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 		8732006B2446F8D300633274 /* PrimeiroApp */ = {
 			isa = PBXGroup;
 			children = (
+				873200FF244966C800633274 /* Gasolina */,
 				873200FA244946D100633274 /* Frases */,
 				873200F5244869BD00633274 /* Rand */,
 				873200F0244868EB00633274 /* Dog */,
@@ -73,6 +80,7 @@
 				8732006E2446F8D300633274 /* ViewController.swift */,
 				873200702446F8D300633274 /* Main.storyboard */,
 				873200732446F8D400633274 /* Assets.xcassets */,
+				873201042449674F00633274 /* logo2.png */,
 				873200752446F8D400633274 /* LaunchScreen.storyboard */,
 				873200782446F8D400633274 /* Info.plist */,
 			);
@@ -104,6 +112,15 @@
 				873200FC244946F100633274 /* FrasesViewController.xib */,
 			);
 			name = Frases;
+			sourceTree = "<group>";
+		};
+		873200FF244966C800633274 /* Gasolina */ = {
+			isa = PBXGroup;
+			children = (
+				87320100244966ED00633274 /* GasolinaViewController.swift */,
+				87320101244966ED00633274 /* GasolinaViewController.xib */,
+			);
+			name = Gasolina;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,11 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				873200F924486C3600633274 /* DogViewController.xib in Resources */,
+				87320103244966ED00633274 /* GasolinaViewController.xib in Resources */,
 				873200772446F8D400633274 /* LaunchScreen.storyboard in Resources */,
 				873200742446F8D400633274 /* Assets.xcassets in Resources */,
 				873200722446F8D300633274 /* Main.storyboard in Resources */,
 				873200FE244946F100633274 /* FrasesViewController.xib in Resources */,
 				873200ED24484BF900633274 /* RandViewController.xib in Resources */,
+				873201052449674F00633274 /* logo2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87320102244966ED00633274 /* GasolinaViewController.swift in Sources */,
 				8732006F2446F8D300633274 /* ViewController.swift in Sources */,
 				873200FD244946F100633274 /* FrasesViewController.swift in Sources */,
 				8732006D2446F8D300633274 /* AppDelegate.swift in Sources */,

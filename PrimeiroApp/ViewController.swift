@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func sendRand(_ sender: Any) {
-        let viewController = DogViewController(nibName: "DogViewController", bundle: nil)
+        let viewController = RandViewController(nibName: "RandViewController", bundle: nil)
         self.present(viewController, animated: true, completion: nil)
     }
     @IBAction func sendFrases(_ sender: Any) {
@@ -24,6 +24,11 @@ class ViewController: UIViewController {
         self.present(viewController, animated: true, completion: nil)
     }
     
+    @IBAction func sendGasolina(_ sender: Any) {
+        let viewController = GasolinaViewController(nibName: "GasolinaViewController", bundle: nil)
+        self.present(viewController, animated: true, completion: nil)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
