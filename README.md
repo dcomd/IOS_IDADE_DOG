@@ -18,3 +18,12 @@ Primeiro Aplicativo do curso IOS
 - Bool
 - Arrays
 - entender mais componestes
+
+#Terceiro App
+- Gerar Frases do Dia.
+- Sets.
+- Dicionarios.
+- Operadores Aritimeticos.
+- Operadores Logicos.
+- Estrutura Condicionais IF e Else , Switch Cases.
+
