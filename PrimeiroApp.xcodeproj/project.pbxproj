@@ -26,6 +26,9 @@
 		875B3E22244D6D86002A0802 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E21244D6D86002A0802 /* DetalhesViewController.swift */; };
 		875B3E26244D8A0C002A0802 /* AtomConsultingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E25244D8A0C002A0802 /* AtomConsultingViewController.swift */; };
 		875B3E28244D8A21002A0802 /* AtomConsulting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875B3E27244D8A21002A0802 /* AtomConsulting.storyboard */; };
+		875B3E2B244DB165002A0802 /* CaraOuCoroa.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875B3E2A244DB165002A0802 /* CaraOuCoroa.storyboard */; };
+		875B3E2D244DB36E002A0802 /* CaraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E2C244DB36E002A0802 /* CaraViewController.swift */; };
+		875B3E2F244DB385002A0802 /* DetalhesCaraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E2E244DB385002A0802 /* DetalhesCaraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		875B3E21244D6D86002A0802 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		875B3E25244D8A0C002A0802 /* AtomConsultingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomConsultingViewController.swift; sourceTree = "<group>"; };
 		875B3E27244D8A21002A0802 /* AtomConsulting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AtomConsulting.storyboard; sourceTree = "<group>"; };
+		875B3E2A244DB165002A0802 /* CaraOuCoroa.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CaraOuCoroa.storyboard; sourceTree = "<group>"; };
+		875B3E2C244DB36E002A0802 /* CaraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaraViewController.swift; sourceTree = "<group>"; };
+		875B3E2E244DB385002A0802 /* DetalhesCaraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesCaraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,7 @@
 		8732006B2446F8D300633274 /* PrimeiroApp */ = {
 			isa = PBXGroup;
 			children = (
+				875B3E29244DB124002A0802 /* CaraOuCoroa */,
 				875B3E24244D89D1002A0802 /* AtmConsulting */,
 				875B3E1A244D6749002A0802 /* PassarDados */,
 				873200FF244966C800633274 /* Gasolina */,
@@ -154,6 +161,16 @@
 			name = AtmConsulting;
 			sourceTree = "<group>";
 		};
+		875B3E29244DB124002A0802 /* CaraOuCoroa */ = {
+			isa = PBXGroup;
+			children = (
+				875B3E2A244DB165002A0802 /* CaraOuCoroa.storyboard */,
+				875B3E2C244DB36E002A0802 /* CaraViewController.swift */,
+				875B3E2E244DB385002A0802 /* DetalhesCaraViewController.swift */,
+			);
+			name = CaraOuCoroa;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -217,6 +234,7 @@
 				873200772446F8D400633274 /* LaunchScreen.storyboard in Resources */,
 				873200742446F8D400633274 /* Assets.xcassets in Resources */,
 				875B3E28244D8A21002A0802 /* AtomConsulting.storyboard in Resources */,
+				875B3E2B244DB165002A0802 /* CaraOuCoroa.storyboard in Resources */,
 				873200722446F8D300633274 /* Main.storyboard in Resources */,
 				875B3E20244D6873002A0802 /* PassarDados.storyboard in Resources */,
 				873200FE244946F100633274 /* FrasesViewController.xib in Resources */,
@@ -239,8 +257,10 @@
 				8732006D2446F8D300633274 /* AppDelegate.swift in Sources */,
 				873200EC24484BF900633274 /* RandViewController.swift in Sources */,
 				875B3E22244D6D86002A0802 /* DetalhesViewController.swift in Sources */,
+				875B3E2F244DB385002A0802 /* DetalhesCaraViewController.swift in Sources */,
 				873200F824486C3600633274 /* DogViewController.swift in Sources */,
 				875B3E1D244D6771002A0802 /* PassarDadosViewController.swift in Sources */,
+				875B3E2D244DB36E002A0802 /* CaraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

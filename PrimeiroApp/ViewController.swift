@@ -43,6 +43,12 @@ class ViewController: UIViewController {
         self.present(viewController, animated: true, completion: nil)
     }
     
+    @IBAction func sendCara(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "CaraOuCoroa", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "CaraViewController") as UIViewController
+        //show(viewController, sender: self)
+        self.present(viewController, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
