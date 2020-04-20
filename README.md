@@ -35,3 +35,10 @@ Primeiro Aplicativo do curso IOS
 - Classes e objetos
 - Herança
 
+#QuintoApp
+- Projeto Atm
+- Auto Layout com constraints.
+- Stack View
+- Segues(Navigation Control).
+
+
