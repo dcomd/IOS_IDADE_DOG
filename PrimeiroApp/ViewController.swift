@@ -29,6 +29,13 @@ class ViewController: UIViewController {
         self.present(viewController, animated: true, completion: nil)
         
     }
+    @IBAction func senAtm(_ sender: Any) {
+       
+        let storyboard = UIStoryboard(name: "Atm", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "AtmViewController") as UIViewController
+        //show(viewController, sender: self)
+        self.present(viewController, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
