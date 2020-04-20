@@ -21,6 +21,9 @@
 		87320102244966ED00633274 /* GasolinaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87320100244966ED00633274 /* GasolinaViewController.swift */; };
 		87320103244966ED00633274 /* GasolinaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87320101244966ED00633274 /* GasolinaViewController.xib */; };
 		873201052449674F00633274 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = 873201042449674F00633274 /* logo2.png */; };
+		875B3E1D244D6771002A0802 /* PassarDadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E1B244D6771002A0802 /* PassarDadosViewController.swift */; };
+		875B3E20244D6873002A0802 /* PassarDados.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875B3E1F244D6873002A0802 /* PassarDados.storyboard */; };
+		875B3E22244D6D86002A0802 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E21244D6D86002A0802 /* DetalhesViewController.swift */; };
 		87A7063B244C2BA8006FFA19 /* AtmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A7063A244C2BA8006FFA19 /* AtmViewController.swift */; };
 		87A7063D244C2BBB006FFA19 /* Atm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A7063C244C2BBB006FFA19 /* Atm.storyboard */; };
 /* End PBXBuildFile section */
@@ -42,6 +45,9 @@
 		87320100244966ED00633274 /* GasolinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasolinaViewController.swift; sourceTree = "<group>"; };
 		87320101244966ED00633274 /* GasolinaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GasolinaViewController.xib; sourceTree = "<group>"; };
 		873201042449674F00633274 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		875B3E1B244D6771002A0802 /* PassarDadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassarDadosViewController.swift; sourceTree = "<group>"; };
+		875B3E1F244D6873002A0802 /* PassarDados.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassarDados.storyboard; sourceTree = "<group>"; };
+		875B3E21244D6D86002A0802 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		87A7063A244C2BA8006FFA19 /* AtmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmViewController.swift; sourceTree = "<group>"; };
 		87A7063C244C2BBB006FFA19 /* Atm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Atm.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +82,7 @@
 		8732006B2446F8D300633274 /* PrimeiroApp */ = {
 			isa = PBXGroup;
 			children = (
+				875B3E1A244D6749002A0802 /* PassarDados */,
 				87A70639244C2B6B006FFA19 /* AtmConsultoria */,
 				873200FF244966C800633274 /* Gasolina */,
 				873200FA244946D100633274 /* Frases */,
@@ -126,6 +133,16 @@
 				87320101244966ED00633274 /* GasolinaViewController.xib */,
 			);
 			name = Gasolina;
+			sourceTree = "<group>";
+		};
+		875B3E1A244D6749002A0802 /* PassarDados */ = {
+			isa = PBXGroup;
+			children = (
+				875B3E1B244D6771002A0802 /* PassarDadosViewController.swift */,
+				875B3E1F244D6873002A0802 /* PassarDados.storyboard */,
+				875B3E21244D6D86002A0802 /* DetalhesViewController.swift */,
+			);
+			name = PassarDados;
 			sourceTree = "<group>";
 		};
 		87A70639244C2B6B006FFA19 /* AtmConsultoria */ = {
@@ -201,6 +218,7 @@
 				87A7063D244C2BBB006FFA19 /* Atm.storyboard in Resources */,
 				873200742446F8D400633274 /* Assets.xcassets in Resources */,
 				873200722446F8D300633274 /* Main.storyboard in Resources */,
+				875B3E20244D6873002A0802 /* PassarDados.storyboard in Resources */,
 				873200FE244946F100633274 /* FrasesViewController.xib in Resources */,
 				873200ED24484BF900633274 /* RandViewController.xib in Resources */,
 				873201052449674F00633274 /* logo2.png in Resources */,
@@ -219,7 +237,9 @@
 				873200FD244946F100633274 /* FrasesViewController.swift in Sources */,
 				8732006D2446F8D300633274 /* AppDelegate.swift in Sources */,
 				873200EC24484BF900633274 /* RandViewController.swift in Sources */,
+				875B3E22244D6D86002A0802 /* DetalhesViewController.swift in Sources */,
 				873200F824486C3600633274 /* DogViewController.swift in Sources */,
+				875B3E1D244D6771002A0802 /* PassarDadosViewController.swift in Sources */,
 				87A7063B244C2BA8006FFA19 /* AtmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
