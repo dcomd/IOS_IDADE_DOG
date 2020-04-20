@@ -1,14 +1,14 @@
 //
-//  AtmViewController.swift
+//  AtomConsultingViewController.swift
 //  PrimeiroApp
 //
-//  Created by Alexandre de Oliveira Nepomuceno on 19/04/20.
+//  Created by Alexandre de Oliveira Nepomuceno on 20/04/20.
 //  Copyright © 2020 Alexandre de Oliveira Nepomuceno. All rights reserved.
 //
 
 import UIKit
 
-class AtmViewController: UIViewController {
+class AtomConsultingViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

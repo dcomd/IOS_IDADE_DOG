@@ -24,8 +24,8 @@
 		875B3E1D244D6771002A0802 /* PassarDadosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E1B244D6771002A0802 /* PassarDadosViewController.swift */; };
 		875B3E20244D6873002A0802 /* PassarDados.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875B3E1F244D6873002A0802 /* PassarDados.storyboard */; };
 		875B3E22244D6D86002A0802 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E21244D6D86002A0802 /* DetalhesViewController.swift */; };
-		87A7063B244C2BA8006FFA19 /* AtmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A7063A244C2BA8006FFA19 /* AtmViewController.swift */; };
-		87A7063D244C2BBB006FFA19 /* Atm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87A7063C244C2BBB006FFA19 /* Atm.storyboard */; };
+		875B3E26244D8A0C002A0802 /* AtomConsultingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875B3E25244D8A0C002A0802 /* AtomConsultingViewController.swift */; };
+		875B3E28244D8A21002A0802 /* AtomConsulting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875B3E27244D8A21002A0802 /* AtomConsulting.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,8 +48,8 @@
 		875B3E1B244D6771002A0802 /* PassarDadosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassarDadosViewController.swift; sourceTree = "<group>"; };
 		875B3E1F244D6873002A0802 /* PassarDados.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PassarDados.storyboard; sourceTree = "<group>"; };
 		875B3E21244D6D86002A0802 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
-		87A7063A244C2BA8006FFA19 /* AtmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtmViewController.swift; sourceTree = "<group>"; };
-		87A7063C244C2BBB006FFA19 /* Atm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Atm.storyboard; sourceTree = "<group>"; };
+		875B3E25244D8A0C002A0802 /* AtomConsultingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomConsultingViewController.swift; sourceTree = "<group>"; };
+		875B3E27244D8A21002A0802 /* AtomConsulting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AtomConsulting.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		8732006B2446F8D300633274 /* PrimeiroApp */ = {
 			isa = PBXGroup;
 			children = (
+				875B3E24244D89D1002A0802 /* AtmConsulting */,
 				875B3E1A244D6749002A0802 /* PassarDados */,
-				87A70639244C2B6B006FFA19 /* AtmConsultoria */,
 				873200FF244966C800633274 /* Gasolina */,
 				873200FA244946D100633274 /* Frases */,
 				873200F5244869BD00633274 /* Rand */,
@@ -145,13 +145,13 @@
 			name = PassarDados;
 			sourceTree = "<group>";
 		};
-		87A70639244C2B6B006FFA19 /* AtmConsultoria */ = {
+		875B3E24244D89D1002A0802 /* AtmConsulting */ = {
 			isa = PBXGroup;
 			children = (
-				87A7063A244C2BA8006FFA19 /* AtmViewController.swift */,
-				87A7063C244C2BBB006FFA19 /* Atm.storyboard */,
+				875B3E25244D8A0C002A0802 /* AtomConsultingViewController.swift */,
+				875B3E27244D8A21002A0802 /* AtomConsulting.storyboard */,
 			);
-			name = AtmConsultoria;
+			name = AtmConsulting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,8 +215,8 @@
 				873200F924486C3600633274 /* DogViewController.xib in Resources */,
 				87320103244966ED00633274 /* GasolinaViewController.xib in Resources */,
 				873200772446F8D400633274 /* LaunchScreen.storyboard in Resources */,
-				87A7063D244C2BBB006FFA19 /* Atm.storyboard in Resources */,
 				873200742446F8D400633274 /* Assets.xcassets in Resources */,
+				875B3E28244D8A21002A0802 /* AtomConsulting.storyboard in Resources */,
 				873200722446F8D300633274 /* Main.storyboard in Resources */,
 				875B3E20244D6873002A0802 /* PassarDados.storyboard in Resources */,
 				873200FE244946F100633274 /* FrasesViewController.xib in Resources */,
@@ -233,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87320102244966ED00633274 /* GasolinaViewController.swift in Sources */,
+				875B3E26244D8A0C002A0802 /* AtomConsultingViewController.swift in Sources */,
 				8732006F2446F8D300633274 /* ViewController.swift in Sources */,
 				873200FD244946F100633274 /* FrasesViewController.swift in Sources */,
 				8732006D2446F8D300633274 /* AppDelegate.swift in Sources */,
@@ -240,7 +241,6 @@
 				875B3E22244D6D86002A0802 /* DetalhesViewController.swift in Sources */,
 				873200F824486C3600633274 /* DogViewController.swift in Sources */,
 				875B3E1D244D6771002A0802 /* PassarDadosViewController.swift in Sources */,
-				87A7063B244C2BA8006FFA19 /* AtmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

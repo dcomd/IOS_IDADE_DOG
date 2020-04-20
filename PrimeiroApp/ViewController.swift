@@ -31,18 +31,11 @@ class ViewController: UIViewController {
     }
     @IBAction func senAtm(_ sender: Any) {
        
-        let storyboard = UIStoryboard(name: "Atm", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "AtmViewController") as UIViewController
+        let storyboard = UIStoryboard(name: "AtomConsulting", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "AtomConsultingViewController") as UIViewController
         //show(viewController, sender: self)
         self.present(viewController, animated: true, completion: nil)
     }
-    
-    @IBAction func sendPassarDado(_ sender: Any) {
-        
-        
-    }
-    
-    
     @IBAction func sendPassarDadosProject(_ sender: Any) {
         let storyboard = UIStoryboard(name: "PassarDados", bundle: nil)
         let viewController = storyboard.instantiateViewController(withIdentifier: "PassarDadosViewController") as UIViewController
