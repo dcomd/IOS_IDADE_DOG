@@ -43,3 +43,6 @@ Primeiro Aplicativo do curso IOS
 
 #SextoApp
 - Passando dados entre telas usando segues
+
+#SetimoApp
+- Criar um ap de cara ou coroa , usando todos conceitos aprendidos acima.
