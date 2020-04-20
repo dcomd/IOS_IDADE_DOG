@@ -41,4 +41,5 @@ Primeiro Aplicativo do curso IOS
 - Stack View
 - Segues(Navigation Control).
 
-
+#SextoApp
+- Passando dados entre telas usando segues
