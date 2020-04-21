@@ -49,6 +49,22 @@ class ViewController: UIViewController {
         //show(viewController, sender: self)
         self.present(viewController, animated: true, completion: nil)
     }
+    
+    @IBAction func sendTable(_ sender: Any) {
+        
+        let storyboard = UIStoryboard(name: "TableView", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "TableViewController") as! UITableViewController
+        //show(viewController, sender: self)
+        self.present(viewController, animated: true, completion: nil)
+        
+    }
+    
+    @IBAction func sendAlerta(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "alerta", bundle: nil)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "AlertaViewController") as UIViewController
+        //show(viewController, sender: self)
+        self.present(viewController, animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
