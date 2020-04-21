@@ -46,3 +46,7 @@ Primeiro Aplicativo do curso IOS
 
 #SetimoApp
 - Criar um ap de cara ou coroa , usando todos conceitos aprendidos acima.
+
+#Oitavo e Nono APP
+- Estudo sobre Table View Control e Alertas.
+
